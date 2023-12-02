@@ -1,7 +1,7 @@
 {
   "name": "@iicdii/eslint-config",
   "main": "index.js",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "dependencies": {
     "@rushstack/eslint-config": "3.5.0",
     "@rushstack/eslint-patch": "1.6.0",
