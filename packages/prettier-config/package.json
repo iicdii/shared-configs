@@ -1,5 +1,5 @@
 {
-  "name": "@iicdii/prettier-config",
+  "name": "@harimkims/prettier-config",
   "main": "index.js",
   "version": "0.0.0",
   "dependencies": {

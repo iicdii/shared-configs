@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "example": "pnpm --filter example",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "release": "changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",

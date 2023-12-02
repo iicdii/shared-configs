@@ -1,5 +1,5 @@
 {
-  "name": "@iicdii/eslint-config",
+  "name": "@harimkims/eslint-config",
   "main": "index.js",
   "version": "0.0.0",
   "dependencies": {
