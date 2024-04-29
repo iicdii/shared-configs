@@ -10,7 +10,6 @@ module.exports = {
     'plugin:react-hooks/recommended',
     'plugin:react/jsx-runtime',
     'plugin:@tanstack/eslint-plugin-query/recommended',
-    'plugin:testing-library/react',
   ],
 
   settings: {
@@ -20,6 +19,16 @@ module.exports = {
       version: 'detect',
     },
   },
+
+  overrides: [
+    {
+      files: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test).[jt]s?(x)'],
+      extends: ['plugin:testing-library/react'],
+      rules: {
+        'react-refresh/only-export-components': 'off',
+      },
+    },
+  ],
 
   rules: {
     'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
