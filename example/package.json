@@ -15,8 +15,8 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@iicdii/eslint-config": "workspace:*",
-    "@iicdii/prettier-config": "workspace:*",
+    "@harimkims/eslint-config": "workspace:*",
+    "@harimkims/prettier-config": "workspace:*",
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
     "@vitejs/plugin-react-swc": "^3.5.0",
@@ -24,5 +24,5 @@
     "typescript": "^5.2.2",
     "vite": "^5.0.0"
   },
-  "prettier": "@iicdii/prettier-config"
+  "prettier": "@harimkims/prettier-config"
 }
